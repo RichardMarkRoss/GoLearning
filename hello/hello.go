@@ -18,10 +18,14 @@ package main
 
 import (
 	"fmt"
-
-	"golang.org/x/example/stringutil"
 )
 
 func main() {
-	fmt.Println(stringutil.Reverse("!selpmaxe oG ,olleH"))
+	// i := 42
+	// var j int = 27
+	k := 27
+	fmt.Printf("%v , %T", k, k)
+	// fmt.Println(k)
+	// fmt.Println(i)
+	// fmt.Println(stringutil.Reverse("!selpmaxe oG ,olleH"))
 }
